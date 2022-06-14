@@ -1,0 +1,35 @@
+.navbar{
+    background-color: var(--header);
+    height: 6rem;
+}
+
+.navbar-brand {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px 0 15px;
+}
+
+.nav-link{
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+.btn {
+    padding: 0.8rem 1.6rem 0.8rem 1.6rem;
+    border-radius: 2rem;
+    border: none;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.btn:hover{
+    background-color: var(--header-hover);
+    color:white;
+}
