@@ -37,6 +37,7 @@
     flex-direction: column;
     width: 90%;
     background-color: white;
+    z-index: 1;
 }
 
 .navbar-toggled .nav-link{
@@ -77,4 +78,10 @@
 
 .navbar-dark .navbar-toggler{
     border-color: white;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

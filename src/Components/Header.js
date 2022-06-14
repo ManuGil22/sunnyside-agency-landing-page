@@ -2,13 +2,15 @@ import { Navbar, Nav, Button } from 'react-bootstrap';
 import '../Stylesheets/Header.css';
 
 function Header() {
-    const navContainer = document.getElementById('navContainer');
-
+    
     function handleToggle(){
-        if (navContainer.classList.value.includes('navbar-toggled')) {
-            navContainer.classList.remove('navbar-toggled');
-        } else {
-            navContainer.classList.add('navbar-toggled');
+        const navContainer = document.getElementById('navContainer');
+        if (navContainer) {
+            if (navContainer.classList.value.includes('navbar-toggled')) {
+                navContainer.classList.remove('navbar-toggled');
+            } else {
+                navContainer.classList.add('navbar-toggled');
+            }
         }
     }
 
