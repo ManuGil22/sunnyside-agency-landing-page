@@ -12,7 +12,40 @@
   --Grayish-blue: hsl(210, 4%, 67%);
 }
 
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+.main {
   height: 100vh;
-  background-color: var(--header);
+  width: 100%;
+}
+
+.main-img{
+  width: 100%;
+  height: auto;
+}
+
+.heading-container{
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.main-title{
+  position: absolute;
+  top: 30%;
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  font-size: 64px;
+  letter-spacing: 1.3rem;
+}
+
+.arrow-img {
+  position: absolute;
+  top: 50%;
+  width: 50px;
+  height: 150px;
 }
