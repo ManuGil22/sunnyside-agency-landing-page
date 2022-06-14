@@ -11,3 +11,8 @@
   --Dark-grayish-blue: hsl(232, 10%, 55%);
   --Grayish-blue: hsl(210, 4%, 67%);
 }
+
+.App {
+  height: 100vh;
+  background-color: var(--header);
+}

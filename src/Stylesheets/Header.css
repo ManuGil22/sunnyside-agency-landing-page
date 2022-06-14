@@ -1,5 +1,4 @@
 .navbar{
-    background-color: var(--header);
     height: 6rem;
 }
 
@@ -19,6 +18,35 @@
     margin-left: 15px;
     margin-right: 15px;
     font-size: 18px;
+    color: white !important;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.navbar-toggled {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    background-color: white;
+}
+
+.navbar-toggled .nav-link{
+    color: grey !important;
+}
+
+.navbar-toggled .btn {
+    background-color: var(--yellow);
+}
+
+.navbar-toggled .btn:hover {
+    background-color: var(--yellow);
+    color: black;
 }
 
 .btn {
@@ -27,9 +55,23 @@
     border: none;
     margin-left: 15px;
     margin-right: 15px;
+    align-self: center;
+    width: 150px;
 }
 
 .btn:hover{
     background-color: var(--header-hover);
     color:white;
+}
+
+.toggler {
+    margin-right: 2rem;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+
+.navbar-dark .navbar-toggler{
+    border-color: white;
 }
