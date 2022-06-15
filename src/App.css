@@ -1,13 +1,15 @@
 :root{
-  --soft-red: hsl(7, 99%, 70%);
+  --red: hsl(7, 99%, 70%);
+  --soft-red: #fec5bb;
   --yellow: hsl(51, 100%, 49%);
+  --yellow-soft: #fdffb6;
   --header: hsl(195, 100%, 50%);
   --header-hover: hsl(197, 95%, 70%);
-  --Dark-desaturated: hsl(167, 40%, 24%);
-  --Darkblue: hsl(198, 62%, 26%);
-  --Dark-moderate-cyan: hsl(168, 34%, 41%);
-  --Very-dark-desaturated-blue: hsl(212, 27%, 19%);
-  --Very-dark-grayish-blue: hsl(213, 9%, 39%);
+  --graphic-desing-text: hsl(167, 40%, 24%);
+  --photography-text: hsl(198, 62%, 26%);
+  --footer: hsl(168, 34%, 41%);
+  --title-color: hsl(212, 27%, 19%);
+  --text-color: hsl(213, 9%, 39%);
   --Dark-grayish-blue: hsl(232, 10%, 55%);
   --Grayish-blue: hsl(210, 4%, 67%);
 }
@@ -50,6 +52,13 @@
   max-width: 50px;
   max-height: 150px;
 }
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+
 
 @media (max-width: 1670px){
   .main-title{
