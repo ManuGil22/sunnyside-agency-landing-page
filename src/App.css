@@ -116,20 +116,29 @@
 
 @media (max-width: 700px) {
   .main-img {
-      content:url("./images/mobile/image-header.jpg");
+      content: url("./images/mobile/image-header.jpg");
   }
   .main-title{
     top: 25%;
     font-size: 3rem;
     letter-spacing: 1.3rem;
     text-align: center;
-  }
-  
+  }  
   .arrow-img {
     top: 45%;
     max-width: 50px;
     max-height: 150px;
   }
+  .grid-container{
+    grid-template-columns: 1fr;
+  }
+  .grid-item:nth-child(1) { order: 2; }
+  .grid-item:nth-child(2) { order: 1; }
+  .grid-item:nth-child(3) { order: 3; }
+  .grid-item:nth-child(4) { order: 4; }
+  .grid-item:nth-child(5) { order: 5; }
+  .grid-item:nth-child(6) { order: 6; }
+
 }
 
 @media (max-width: 530px) {
@@ -151,7 +160,7 @@
     font-size: 2rem;
     letter-spacing: 1rem;
   }
-  
+
   .arrow-img {
     top: 35%;
     max-width: 35px;

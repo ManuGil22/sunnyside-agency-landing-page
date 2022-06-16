@@ -2,7 +2,7 @@ import '../Stylesheets/ImageCard.css';
 
 function ImageCard({ title, text, imgSrc, color }){
     return(
-        <div className="img-container">
+        <div className="img-container grid-item" >
             <img className='image' src={imgSrc}></img>
             <div className={`img-info ${color}`}>
                 <h1 className={`img-title ${title}`}>{title}</h1>
