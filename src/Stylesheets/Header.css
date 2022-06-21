@@ -35,9 +35,19 @@
 .navbar-toggled {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 90%;
     background-color: white;
     z-index: 1;
+}
+
+.navbar-toggled a {
+    margin-bottom: 0.5rem;
+}
+
+.navbar-toggled .btn {
+    margin-bottom: 1rem;
 }
 
 .navbar-toggled .nav-link{

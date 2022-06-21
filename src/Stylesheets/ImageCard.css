@@ -9,6 +9,11 @@
     height: 100%;
 }
 
+.relative-container {
+    position: relative;
+    height: 0;
+}
+
 .img-info {
     display: flex;
     align-items: center;
@@ -46,25 +51,36 @@
 
 /* Media Queries */
 
-@media (max-width: 1600px){
+@media (max-width: 1700px){
+    .img-info{
+        bottom: 270px;
+    }
+}
+
+@media (max-width: 1500px){
     .img-info{
         padding: 0 10rem;
+        bottom: 250px;
+    }
+    .img-title { 
+        font-size: 34px;
+    }
+    .img-text {
+        font-size: 20px;
     }
 }
 
 @media (max-width: 1400px){
     .img-info{
-        bottom: 290px;
-    }
-    .img-title { 
-        font-size: 36px;
+        bottom: 230px;
+        padding: 0 8rem;
     }
 }
 
 @media (max-width: 1260px){
     .img-info{
-        padding: 0 8rem;
-        bottom: 260px;
+        bottom: 200px;
+        padding: 0 6rem;
     }
     .img-title { 
         font-size: 30px;
@@ -74,67 +90,88 @@
     }
 }
 
-@media (max-width: 1000px){
+@media (max-width: 1100px){
     .img-info{
-        padding: 0 6rem;
-        bottom: 230px;
-    }
-}
-
-@media (max-width: 900px){
-    .img-info{
-        padding: 0 4rem;
-        bottom: 200px;
+        bottom: 180px;
+        padding: 0 5rem;
     }
     .img-title { 
-        margin-bottom: 1.2rem;
-        font-size: 24px;
+        font-size: 26px;
+        margin-bottom: 1.5rem;
     }
     .img-text {
         font-size: 16px;
     }
 }
 
-@media (max-width: 800px){
+@media (max-width: 1000px){
     .img-info{
-        padding: 0 3rem;
-        bottom: 160px;
+        bottom: 155px;
+        padding: 0 3.5rem;
     }
     .img-title { 
-        font-size: 22px;
+        margin-bottom: 1rem;
+        font-size: 24px;
     }
     .img-text {
         font-size: 14px;
+    }
+}
+
+
+@media (max-width: 800px){
+    .img-info{
+        padding: 0 3rem;
+        bottom: 120px;
+    }
+    .img-title { 
+        font-size: 20px;
+    }
+    .img-text {
+        font-size: 12px;
     }
 }
 
 @media (max-width: 700px){
     .img-title { 
         margin-bottom: 2rem;
-        font-size: 2em;
+        font-size: 2.5em;
     }
     .img-text {
-        font-size: 16px;
+        font-size: 1.5em;
     }
     .img-info{
-        bottom: 230px;
+        bottom: 350px;
+    }
+    .graphic {
+        content: url("../images/mobile/image-graphic-design.jpg");
+    }
+    .photography {
+        content: url("../images/mobile/image-photography.jpg");
     }
 }
 
 @media (max-width: 560px){
     .img-info{
-        bottom: 200px;
+        bottom: 320px;
+    }
+    .img-title { 
+        margin-bottom: 2rem;
+        font-size: 2.3em;
+    }
+    .img-text {
+        font-size: 1.3em;
     }
 }
 
 @media (max-width: 460px){
     .img-title { 
-        font-size: 28px;
+        font-size: 2em;
     }
     .img-text {
-        font-size: 14px;
+        font-size: 1.1em;
     }
     .img-info{
-        bottom: 170px;
+        bottom: 250px;
     }
 }
