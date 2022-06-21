@@ -20,6 +20,7 @@ import TextCard from './Components/TextCard';
 import ImageCard from './Components/ImageCard';
 import TestimonyCard from './Components/TestimonyCard';
 import Gallery from './Components/Gallery';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -79,7 +80,7 @@ function App() {
 
       <Gallery />
 
-      
+      <Footer />
     </div>
   );
 }
