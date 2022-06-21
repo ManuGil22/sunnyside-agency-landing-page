@@ -4,10 +4,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // Image imports
 import mainImg from './images/desktop/image-header.jpg';
 import arrowIcon from './images/icon-arrow-down.svg';
+
 import transformImg from './images/desktop/image-transform.jpg';
 import standOutImg from './images/desktop/image-stand-out.jpg';
 import graphicDesingImg from './images/desktop/image-graphic-design.jpg';
 import photographyImg from './images/desktop/image-photography.jpg';
+
 import emilyAvatar from './images/image-emily.jpg';
 import jennieAvatar from './images/image-jennie.jpg';
 import thomasAvatar from './images/image-thomas.jpg';
@@ -17,6 +19,7 @@ import Header from './Components/Header';
 import TextCard from './Components/TextCard';
 import ImageCard from './Components/ImageCard';
 import TestimonyCard from './Components/TestimonyCard';
+import Gallery from './Components/Gallery';
 
 function App() {
   return (
@@ -28,7 +31,7 @@ function App() {
         <img className='arrow-img' src={arrowIcon}></img>
       </div>
 
-      <div className='grid-container'>
+      <div className='main-section grid-container'>
         <TextCard 
           title="Transform your brand" 
           text="We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you." 
@@ -73,6 +76,10 @@ function App() {
             clientPosition=" Business Owner" />
         </div>
       </div>
+
+      <Gallery />
+
+      
     </div>
   );
 }
