@@ -24,7 +24,7 @@ import Footer from './Components/Footer';
 
 function App() {
   return (
-    <div className="main">
+    <main className="main">
       <Header />
       <img className="main-img" src={mainImg} alt="main background image"></img>
       <div className="heading-container">
@@ -81,7 +81,7 @@ function App() {
       <Gallery />
 
       <Footer />
-    </div>
+    </main>
   );
 }
 
