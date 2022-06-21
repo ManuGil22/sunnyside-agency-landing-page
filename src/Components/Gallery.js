@@ -10,10 +10,10 @@ import gallerySugarcubes from '../images/desktop/image-gallery-sugarcubes.jpg'
 function Gallery() {
     return (
         <div className='image-gallery-section'>
-            <img className='milkbottles' src={galleryMilkbottles}></img>
-            <img className='orange' src={galleryOrange}></img>
-            <img className='cone' src={galleryCone}></img>
-            <img className='sugarcubes' src={gallerySugarcubes}></img>
+            <img className='milkbottles' src={galleryMilkbottles} alt="gallery image"></img>
+            <img className='orange' src={galleryOrange} alt="gallery image"></img>
+            <img className='cone' src={galleryCone} alt="gallery image"></img>
+            <img className='sugarcubes' src={gallerySugarcubes} alt="gallery image"></img>
         </div>
     )
 }

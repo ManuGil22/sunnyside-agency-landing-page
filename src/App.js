@@ -26,10 +26,10 @@ function App() {
   return (
     <div className="main">
       <Header />
-      <img className="main-img" src={mainImg}></img>
+      <img className="main-img" src={mainImg} alt="main background image"></img>
       <div className="heading-container">
         <h1 className='main-title'>WE ARE CREATIVES</h1>
-        <img className='arrow-img' src={arrowIcon}></img>
+        <img className='arrow-img' src={arrowIcon} alt="arrow icon"></img>
       </div>
 
       <div className='main-section grid-container'>
